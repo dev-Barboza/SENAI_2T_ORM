@@ -72,9 +72,12 @@ namespace EntityFramework.Migrations
                     b.Property<float>("Preco")
                         .HasColumnType("real");
 
+<<<<<<< HEAD
                     b.Property<string>("UrlImagem")
                         .HasColumnType("nvarchar(max)");
 
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
                     b.HasKey("Id");
 
                     b.ToTable("Produtos");
@@ -89,7 +92,11 @@ namespace EntityFramework.Migrations
                         .IsRequired();
 
                     b.HasOne("EntityFramework.Domains.Produto", "Produto")
+<<<<<<< HEAD
                         .WithMany("PedidosItens")
+=======
+                        .WithMany()
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
                         .HasForeignKey("IdProduto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

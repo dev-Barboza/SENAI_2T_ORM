@@ -151,6 +151,7 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -162,6 +163,8 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
       "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
         "type": "package",
         "dependencies": {
@@ -392,6 +395,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.OpenApi/1.1.4": {
         "type": "package",
         "compile": {
@@ -401,6 +405,8 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -509,6 +515,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Swashbuckle.AspNetCore/5.5.0": {
         "type": "package",
         "dependencies": {
@@ -563,6 +570,8 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1854,6 +1863,7 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -1881,6 +1891,8 @@
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
     "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
       "sha512": "iBIdKjKa2nR4LdknV2JMSRpJVM5TOca25EckPm6SZQT6HfH8RoHrn9m14GUAkvzE+uOziXRoAwr8YIC6ZOpyXg==",
       "type": "package",
@@ -2234,6 +2246,7 @@
         "runtime.json"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.OpenApi/1.1.4": {
       "sha512": "6SW0tpbJslc8LAY1XniRfLVcJa7bJUbbwvo2/ZRqfkMbJrsqIj9045vg3STtZhDhYRKhpYgjqGU11eeW4Pzyrg==",
       "type": "package",
@@ -2251,6 +2264,8 @@
         "microsoft.openapi.nuspec"
       ]
     },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -2395,6 +2410,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
     "Swashbuckle.AspNetCore/5.5.0": {
       "sha512": "u5M8VbX2Y9CETPJNXAYrpuWrji6ehEAWrrgbRh9tHjhql7a2vhJfKV1O48FwhdOAxAQk0Jxm7BqXix5NW2LRKg==",
       "type": "package",
@@ -2458,6 +2474,8 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -5899,8 +5917,12 @@
       "Microsoft.EntityFrameworkCore >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
       "Swashbuckle.AspNetCore >= 5.5.0"
+=======
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.8"
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
     ]
   },
   "packageFolders": {
@@ -5959,10 +5981,13 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.8, )"
+<<<<<<< HEAD
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.5.0, )"
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
           }
         },
         "imports": [

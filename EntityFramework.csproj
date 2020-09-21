@@ -15,11 +15,14 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+<<<<<<< HEAD
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="wwwRoot\upload\imagens\" />
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
   </ItemGroup>
 
 

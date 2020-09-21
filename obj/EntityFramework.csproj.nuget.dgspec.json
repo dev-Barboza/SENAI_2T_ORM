@@ -57,10 +57,13 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+<<<<<<< HEAD
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.0, )"
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
             }
           },
           "imports": [

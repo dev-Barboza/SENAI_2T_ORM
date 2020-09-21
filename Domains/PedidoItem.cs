@@ -7,9 +7,16 @@ using System.Threading.Tasks;
 
 namespace EntityFramework.Domains
 {
+<<<<<<< HEAD
     public class PedidoItem : BaseDomain
     {
         
+=======
+    public class PedidoItem
+    {
+        [Key]
+        public Guid Id { get; set; }
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
         public Guid IdPedido { get; set; }
         [ForeignKey("IdPedido")]
         public Pedido Pedido { get; set; }
@@ -21,6 +28,14 @@ namespace EntityFramework.Domains
         [Required]
         public int Quantidade { get; set; }
 
+<<<<<<< HEAD
      
+=======
+        public PedidoItem()
+        {
+            Id = Guid.NewGuid();
+        }
+
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
     }
 }

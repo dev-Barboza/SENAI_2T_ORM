@@ -39,8 +39,11 @@ namespace EntityFramework
             app.UseHttpsRedirection();
 
             app.UseRouting();
+<<<<<<< HEAD
             
             app.UseStaticFiles();
+=======
+>>>>>>> c17d00adcd70dce96b41a01daf073314bbed5b89
 
             app.UseAuthorization();
 
